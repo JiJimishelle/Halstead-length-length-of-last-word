@@ -44,6 +44,12 @@ a metric used in software engineering to measure the complexity of a program
 - Operators: Symbols or keywords that perform operations (e.g., +, -, *, /, if, while, return)
 - Operands: Variables, constants, or values on which the operators act (e.g., x, y, 5, "hello")
 
+Halstead Vocabulary (n) 
+---------------------
+Calculated as the sum of the number of distinct operators (n1) and the number of distinct operands (n2) used in the program.
+Distinct Operators 14: def, (, ), :, #, =, ., strip, split, return, len, input, print, ,
+Distinct Operands 7: lengthOfLastWord, s, str, int, words, word, words[-1]
+
 The Halstead length (N)
 ---------------
 the total number of operator and operand occurrences in the program. Calculated as: 𝑁= 𝑁1+𝑁2
