@@ -70,15 +70,15 @@ Where:
 
 # Calculation
 
-Distinct Operators 14: def, (, ), :, #, =, ., strip, split, return, len, input, print, ,
-Distinct Operands 7: lengthOfLastWord, s, str, int, words, word, words[-1]
+- Distinct Operators 14: def, (, ), :, #, =, ., strip, split, return, len, input, print, ,
+- Distinct Operands 7: lengthOfLastWord, s, str, int, words, word, words[-1]
 
-Total Operators (N1): 24 (including each occurrence of def, (, ), :, #, =, ., strip, split, return, len, input, print, ,)
-Total Operands (N2): 14 (including each occurrence of lengthOfLastWord, s, str, int, words, word, words[-1])
+- Total Operators (N1): 24 (including each occurrence of def, (, ), :, #, =, ., strip, split, return, len, input, print, ,)
+- Total Operands (N2): 14 (including each occurrence of lengthOfLastWord, s, str, int, words, word, words[-1])
 
-Halstead Vocabulary:   n=n1+n2   ----->  n=14+7=21
-Halstead Length:       N=N1+N2  ----->  N=24+14=38
-Halstead Volume:
+- Halstead Vocabulary:   n=n1+n2   ----->  n=14+7=21
+- Halstead Length:       N=N1+N2  ----->  N=24+14=38
+- Halstead Volume:
 V= N×log2​(n)   𝑉= 38×log⁡2(21)   
 log⁡2(21)≈ 4.392log2
 ​V≈ 38 × 4.392= 166.896
